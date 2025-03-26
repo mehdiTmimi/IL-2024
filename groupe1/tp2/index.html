@@ -5,62 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <table border="1" width="100%">
-        <thead>
+
+    <section>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>date of birth</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>tmimi</td>
+                    <td>mehdi</td>
+                    <td>1992</td>
+                </tr>
+                <tr>
+                    <td>filali</td>
+                    <td>hamza</td>
+                    <td>1990</td>
+                </tr>
+            </tbody>
+        </table>
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>date of birth</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>tmimi</td>
+                    <td>mehdi</td>
+                    <td>1992</td>
+                </tr>
+                <tr>
+                    <td>filali</td>
+                    <td>hamza</td>
+                    <td>1990</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>date of birth</th>
+                </tr>
+            </tfoot>
+        </table>
+        <table border="1" width="100%">
             <tr>
-                <th>firstname</th>
-                <th>lastname</th>
-                <th>date of birth</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>tmimi</td>
-                <td>mehdi</td>
-                <td>1992</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                https://github.com/mehdiTmimi/IL-2024
             </tr>
             <tr>
-                <td>filali</td>
-                <td>hamza</td>
-                <td>1990</td>
+                <td>1</td>
+                <td colspan="2">2</td>
             </tr>
-        </tbody>
-        <tfoot>
             <tr>
-                <th>firstname</th>
-                <th>lastname</th>
-                <th>date of birth</th>
+                <td colspan="2" rowspan="2">3</td>
+                <td>4</td>
             </tr>
-        </tfoot>
-    </table>
-    <table border="1" width="100%">
-        <tr>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td colspan="2">2</td>
-        </tr>
-        <tr>
-            <td colspan="2" rowspan="2">3</td>
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td rowspan="2">6</td>
-            <td colspan="2">7</td>
-        </tr>
-        <tr>
-            <td colspan="2">8</td>
-        </tr>
-    </table>
+            <tr>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td rowspan="2">6</td>
+                <td colspan="2">7</td>
+            </tr>
+            <tr>
+                <td colspan="2">8</td>
+            </tr>
+        </table>
+    </section>
 </body>
 
 </html>
