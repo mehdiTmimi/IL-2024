@@ -1,14 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        h2 {
+            color: violet;
+        }
+
+        .x {
+            color: greenyellow;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>hello</h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto enim tempora odio aliquid adipisci ducimus unde voluptate sed natus quo, omnis quibusdam dolorum similique, delectus, libero quae quia hic.
+    <table border="1px" width="100%" height="500px">
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td colspan="2" rowspan="2">2</td>
+
+            </tr>
+            <tr>
+                <td>1</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td rowspan="2"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="2" width="100%" height="500px">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>produit</th>
+                <th>prix</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>souris</td>
+                <td>20DH</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>clavier</td>
+                <td>50DH</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>id</th>
+                <th>produit</th>
+                <th>prix</th>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <h1 style="color: aqua; background-color: blue;">hello</h1>
+    <p class="x" style="border: 1px solid brown;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto enim tempora odio aliquid adipisci
+        ducimus unde voluptate sed natus quo, omnis quibusdam dolorum similique, delectus, libero quae quia hic.
     </p>
+
+    <h5>ok h5</h5>
+    <h2>welcome</h2>
+    <h2>welcome</h2>
+    <h3 class="x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, eaque quibusdam consequuntur optio
+        tempore ab quia iste impedit ex nemo sint quam expedita ea placeat inventore omnis dignissimos nulla minima.
+    </h3>
 </body>
+
 </html>
