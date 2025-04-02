@@ -1,0 +1,30 @@
+header{
+    background-color: aqua;
+    overflow: auto;
+    /* always use overflow auto when you are dealing 
+    with an element that has children using the float property*/
+}
+header h1{
+    float: left;
+}
+header nav{
+    float: right;
+}
+header nav li{
+    display: inline-block;
+}
+main{
+    clear: both;
+}
+main section{
+    float: left;
+    width: 75%;
+}
+main img{
+    float: right;
+    width: 25%;
+}
+footer{
+    clear: both;
+    text-align: center;
+}
