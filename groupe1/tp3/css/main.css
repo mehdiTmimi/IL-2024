@@ -26,7 +26,6 @@ header nav li{
     display: inline-block;
     font-size: 1.3em;
     font-weight: bold;
-    padding: 10px 20px;
     transition-duration: 1s;
 }
 header nav li:hover{
@@ -37,6 +36,8 @@ header nav li:hover{
 header nav li a {
     color: inherit;
     text-decoration: none;
+    padding: 10px 20px;
+    display: block;
 }
 main{
     clear: both;
