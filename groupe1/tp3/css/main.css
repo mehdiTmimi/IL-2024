@@ -73,3 +73,6 @@ footer{
     left: 0;
     right: 0;
 }
+footer span{
+    text-decoration: underline;
+}
