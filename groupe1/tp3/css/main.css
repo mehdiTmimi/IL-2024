@@ -1,78 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background: url(../img/bg.jpeg);
+body {
+  background: url(../img/bg.jpeg);
 }
-header{
-    background-color: black;
-    overflow: auto;
-    /* always use overflow auto when you are dealing 
+header {
+  background-color: black;
+  /* always use overflow auto when you are dealing 
     with an element that has children using the float property*/
-    padding: 10px 20px;
-    color: white;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
 }
-header h1{
-    float: left;
-    font-size: 3em;
+header h1 {
+  font-size: 3em;
 }
 
-header nav{
-    float: right;
-    margin-top: 7px;
+header nav {
 }
-header nav li{
-    display: inline-block;
-    font-size: 1.3em;
-    font-weight: bold;
-    transition-duration: 1s;
+header nav li {
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: bold;
+  transition-duration: 1s;
 }
-header nav li:hover{
-    background: white;
-    color: black;
-    margin-right: 20px;
+header nav li:hover {
+  background: white;
+  color: black;
+  margin-right: 20px;
 }
 header nav li a {
-    color: inherit;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
+  color: inherit;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
 }
-main{
-    clear: both;
-    padding: 20px;
+main {
+  padding: 20px;
+  display: flex;
+  height: 80vh;
 }
-main section{
-    margin-top: 100px;
-    float: left;
-    width: 75%;
+main section {
+  flex: 3;
 }
-main section h2{
-    text-align: center;
-    margin-bottom: 20px;
+main div{
+    flex: 1;
 }
-main section p{
-    text-align: justify;
-    line-height: 1.5;
+main img {
+  width: 100%;
 }
-main img{
-    float: right;
-    width: 25%;
-    margin-top: 50px;
+main section h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
-footer{
-    clear: both;
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    /* https://www.w3schools.com/css/css_positioning.asp */
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+main section p {
+  text-align: justify;
+  line-height: 1.5;
 }
-footer span{
-    text-decoration: underline;
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  /* https://www.w3schools.com/css/css_positioning.asp */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+footer span {
+  text-decoration: underline;
 }
