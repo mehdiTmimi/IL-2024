@@ -3,17 +3,17 @@
     padding: 0;
 }
 header{
-
+    overflow: auto;
     background-color: black;
     color: white;
     padding: 10px 20px;
 }
 header h1{
-
+    float: left;
 }
 
 header nav{
-
+    float: right;
     margin-top: 10px;
 }
 header nav li{
@@ -32,10 +32,10 @@ header nav a{
     display: inline-block;
 }
 main{
-
+    clear: both;
 }
 main section{
-
+    float: left;
     width: 70%;
     padding: 100px 40px 0px 40px;
     box-sizing: border-box;
@@ -48,12 +48,12 @@ main section p{
     text-align: justify;
 }
 main img{
-
+    float: right;
     width: 30%;
     margin-top: 40px;
 }
 footer{
-
+    clear: both;
     color: white;
     background: black;
     padding: 20px;
