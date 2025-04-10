@@ -3,10 +3,12 @@
     padding: 0;
 }
 header{
-
     background-color: black;
     color: white;
     padding: 10px 20px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: end;
 }
 header h1{
 
@@ -32,12 +34,14 @@ header nav a{
     display: inline-block;
 }
 main{
-
+    display: flex;
+    padding: 0px 50px;
+    align-items: center;
+    height: 80vh;
 }
 main section{
 
     width: 70%;
-    padding: 100px 40px 0px 40px;
     box-sizing: border-box;
     
 }
@@ -50,14 +54,15 @@ main section p{
 main img{
 
     width: 30%;
-    margin-top: 40px;
+
 }
 footer{
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     background: black;
     padding: 20px;
-    text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
