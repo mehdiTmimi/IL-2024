@@ -1,34 +1,38 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  text-align: center;
 }
-header nav ul li{
-  display: inline-block;
+header h1 {
+  float: left;
 }
-
-main{
-    display: flex;
+header nav {
+  float: right;
 }
-main h2{
-    color: red;
-    text-align: center;
+main {
+  clear: both;
 }
-main p{
-    text-align: justify;
+main .section1 {
+  float: left;
+  width: 30%;
 }
-main .section1{
-    width: 35%;
+main .section2 {
+  float: right;
+  width: 70%;
 }
-main .section2{
-    width: 65%;
+main .section2 div ul{
+    float: left;
+    
+    width: 30%;
 }
-
-main .section2 div{
-    display: flex;
+main .section2 div p{
+    float: right;
+    width: 60%;
 }
-
-footer{
-    display: flex;
-    justify-content: space-between;
+footer {
+  clear: both;
+}
+footer p:first-child {
+  float: left;
+}
+footer p:last-child {
+  float: right;
 }

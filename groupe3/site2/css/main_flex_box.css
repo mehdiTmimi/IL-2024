@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li{
+  display: inline-block;
+}
+
+main{
+    display: flex;
+}
+main h2{
+    color: red;
+    text-align: center;
+}
+main p{
+    text-align: justify;
+}
+main .section1{
+    width: 35%;
+}
+main .section2{
+    width: 65%;
+}
+
+main .section2 div{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
