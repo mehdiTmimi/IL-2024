@@ -32,6 +32,7 @@ header input {
 }
 header input:focus {
   background-color: lightgray;
+  outline: 3px solid green;
 }
 header input:hover {
   padding-left: 0;
