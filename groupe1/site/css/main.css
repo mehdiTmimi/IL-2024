@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.section1 {
+  padding: 10px 50px;
+  background-color: rgb(224, 237, 242);
+}
+.section1 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 50px;
+}
+.section1 header nav ul {
+  display: flex;
+  gap: 20px;
+}
+.section1 header nav ul li {
+  display: block;
+}
+.section1 header nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.section1 header img {
+  width: 130px;
+}
+.section1 header > div li {
+  display: inline-block;
+  margin-left: 16px;
+}
+.section1 header > div button {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 20px;
+}
+.section1 header > div #log-in-btn {
+  box-shadow: 1px 1px 5px lightgray;
+  background: white;
+}
+.section1 header > div #sign-up-btn {
+  box-shadow: 1px 1px 5px lightgray;
+  background: #5b97a6;
+  /*https://cssgradient.io/*/
+  background: linear-gradient(
+    90deg,
+    rgba(91, 151, 166, 1) 0%,
+    rgba(42, 123, 155, 1) 100%
+  );
+  color: white;
+}
