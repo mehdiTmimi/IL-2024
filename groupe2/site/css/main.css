@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    color: rgb(80, 80, 80);
+    background: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+header .header-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+header .header-left img{
+    width: 150px;
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+header nav li{
+    display: block;
+}
+header a, header button{
+    color: inherit;
+    font-size: 1.2em;
+}
+header button{
+    background: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+header #login-btn{
+    border: 0;
+}
+header #login-btn:hover{
+    color:#9c33f4;
+    cursor: pointer;
+}
+header #sign-up-btn{
+    border: 1px solid #9c33f4; 
+    color: #9c33f4;
+}
+header #sign-up-btn:hover{
+    background: #9c33f4;
+    color: white;
+}
+header #sign-up-btn i{
+    margin-left: 10px;
+}
+
+
+
+
+
+.laptop{
+    width: 400px;
+}
