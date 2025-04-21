@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px 90px;
+    height: 100vh;
+    background: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header .fixed-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .fixed-header div{
+    display: flex;
+    gap: 20px;
+}
+header .fixed-header div a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+}
