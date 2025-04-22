@@ -1,47 +1,61 @@
-*{
-    padding: 0;
-    margin: 0;
+:root {
+  --text-color: #213448;
+  --text-color-variation: #547792;
+  --bg-color: #ecefca;
 }
-header{
-    text-align: center;
+
+* {
+  padding: 0;
+  margin: 0;
 }
-header h1{
-    float: left;
+header,footer{
+    background: var(--bg-color);
+    color: var(--text-color);
+    overflow: auto;
 }
-header nav{
-    float: right;
+header {
+  text-align: center;
 }
-header nav li{
-    display: inline-block;
+header h1 {
+  float: left;
 }
-main{
-    clear: both;
+header nav {
+  float: right;
 }
-section:first-child{
-    float: left;
-    width: 30%;
+header nav li {
+  display: inline-block;
 }
-section:last-child{
-    float: left;
-    width: 70%;
+header nav li a {
+    color: inherit;
 }
-section:last-child div ul{
-    float: left;
-    width: 30%;
+main {
+  clear: both;
 }
-section:last-child li{
-    display: block;
+section:first-child {
+  float: left;
+  width: 30%;
 }
-section:last-child div p{
-    float: right;
-    width: 70%;
+section:last-child {
+  float: left;
+  width: 70%;
 }
-footer{
-    clear: both;
+section:last-child div ul {
+  float: left;
+  width: 30%;
 }
-footer p:nth-child(1){
-    float: left;
+section:last-child li {
+  display: block;
 }
-footer p:nth-child(2){
-    float: right;
+section:last-child div p {
+  float: right;
+  width: 70%;
+}
+footer {
+  clear: both;
+}
+footer p:nth-child(1) {
+  float: left;
+}
+footer p:nth-child(2) {
+  float: right;
 }
