@@ -1,79 +1,29 @@
-:root {
-  --text-color: #213448;
-  --text-color-variation: #547792;
-  --bg-color: #ecefca;
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li{
+    display: block;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+}
+main{
+    display: flex;
+}
+main section:nth-child(1){
+    flex:1;
+}
+main section:nth-child(2){
+    flex:2;
+}
+main section:nth-child(2) div{
+    display: flex;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-header,footer{
-    background: var(--bg-color);
-    color: var(--text-color);
-    overflow: auto;
-}
-header {
-  text-align: center;
-  padding: 20px 40px;
-}
-header input{
-    font-size: 1.2em;
-    padding: 4px;
-    border: 0;
-    border-bottom: 1px solid var(--text-color-variation);
-    border-radius: 5px;
-}
-header h1 {
-  float: left;
-}
-header nav {
-  float: right;
-  margin-top: 10px;
-}
-header nav li {
-  display: inline-block;
-}
-header nav li a {
-    color: inherit;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 1px solid var(--text-color-variation);
-    transition-duration: 500ms;
-}
-header nav li a:hover{
-    background: var(--text-color);
-    color: var(--bg-color);
-    margin-right: 10px;
-}
-main {
-  clear: both;
-}
-section:first-child {
-  float: left;
-  width: 30%;
-}
-section:last-child {
-  float: left;
-  width: 70%;
-}
-section:last-child div ul {
-  float: left;
-  width: 30%;
-}
-section:last-child li {
-  display: block;
-}
-section:last-child div p {
-  float: right;
-  width: 70%;
-}
-footer {
-  clear: both;
-}
-footer p:nth-child(1) {
-  float: left;
-}
-footer p:nth-child(2) {
-  float: right;
-}
