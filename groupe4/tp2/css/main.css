@@ -39,6 +39,12 @@ header nav li a {
     text-decoration: none;
     padding: 10px 20px;
     border: 1px solid var(--text-color-variation);
+    transition-duration: 500ms;
+}
+header nav li a:hover{
+    background: var(--text-color);
+    color: var(--bg-color);
+    margin-right: 10px;
 }
 main {
   clear: both;
