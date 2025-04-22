@@ -1,0 +1,18 @@
+*{
+   box-sizing: border-box;
+}
+th,td{
+    border: solid;
+    padding: 10px 20px;
+}
+th{
+    background-color: aliceblue;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+table{
+    border-collapse: collapse;
+}
+table tbody tr:nth-child(even){
+    background-color: cornsilk;
+}
