@@ -4,7 +4,7 @@
 * {
   padding: 0;
   margin: 0;
-
+  font-family: "Figtree", sans-serif;
 }
 .section1 {
   padding: 10px 50px;
@@ -99,4 +99,22 @@
 .section1 .btns{
   display: flex;
   gap: 10px;
+}
+.welcome-div h1{
+  font-size: 4em;
+}
+.welcome-div h1 span{
+  color: var(--custom-blue);
+}
+.list-hero{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  /* gap: 20px; */
+}
+.list-hero li{
+  display: block;
+  width: 50%;
+  max-width: 300px;
+  margin-top: 20px;
 }
