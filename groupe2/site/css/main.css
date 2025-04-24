@@ -1,70 +1,124 @@
-*{
+:root {
+    --padding-top-bottom: 20px;
+    --padding-right-left: 100px;
+  }
+  * {
     margin: 0;
     padding: 0;
     text-decoration: none;
-}
-
-header{
+    font-family: "Figtree", sans-serif;
+  }
+  
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: var(--padding-top-bottom) var(--padding-right-left);
     color: rgb(80, 80, 80);
     background: white;
     position: sticky;
     right: 0;
     left: 0;
     top: 0;
-}
-header .header-left{
+  }
+  header .header-left {
     display: flex;
     align-items: center;
     gap: 30px;
-}
-header .header-left img{
+  }
+  header .header-left img {
     width: 150px;
-}
-header nav ul{
+  }
+  header nav ul {
     display: flex;
     gap: 30px;
-}
-header nav li{
+  }
+  header nav li {
     display: block;
-}
-header a, header button{
+  }
+  header a,
+  header button {
     color: inherit;
     font-size: 1.2em;
-}
-header button{
+  }
+  header button {
     background: none;
     text-transform: capitalize;
     padding: 10px 20px;
     border-radius: 20px;
     transition-duration: 500ms;
-}
-header #login-btn{
+  }
+  header #login-btn {
     border: 0;
-}
-header #login-btn:hover{
-    color:#9c33f4;
-    cursor: pointer;
-}
-header #sign-up-btn{
-    border: 1px solid #9c33f4; 
+  }
+  header #login-btn:hover {
     color: #9c33f4;
-}
-header #sign-up-btn:hover{
+    cursor: pointer;
+  }
+  header #sign-up-btn {
+    border: 1px solid #9c33f4;
+    color: #9c33f4;
+  }
+  header #sign-up-btn:hover {
     background: #9c33f4;
     color: white;
-}
-header #sign-up-btn i{
+  }
+  header #sign-up-btn i {
     margin-left: 10px;
-}
-
-
-
-
-
-.laptop{
+  }
+  
+  section {
+    padding: var(--padding-top-bottom) var(--padding-right-left);
+  }
+  .section1 {
+    display: flex;
+    background: linear-gradient(
+      90deg,
+      rgba(103, 33, 235, 1) 0%,
+      rgba(200, 0, 255, 1) 100%
+    );
+    color: white;
+    gap: 120px;
+  }
+  .section1 > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+  }
+  .section1 > div h1 {
+    font-size: 3em;
+  }
+  .section1 > div p {
+    font-size: 1.3em;
+  }
+  .section1 img {
+    width: 100%;
+  }
+  .laptop {
     width: 400px;
-}
+  }
+  .btn-group{
+    display: flex;
+    gap: 20px;
+  }
+  .btn{
+      padding: 10px 20px;
+      border-radius: 30px;
+      border: 0;
+      display: flex;
+      gap: 10px;
+      align-items: end;
+  }
+
+  .btn-white {
+    background-color: white;
+    color: #9c33f4;
+  }
+  .btn-transparent {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+  }
+  
