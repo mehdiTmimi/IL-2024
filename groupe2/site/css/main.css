@@ -20,6 +20,7 @@ header {
   right: 0;
   left: 0;
   top: 0;
+  z-index: 1000;
 }
 header .header-left {
   display: flex;
@@ -128,4 +129,26 @@ section {
   top: -63px;
   right: -34px;
   width: 100px;
+}
+
+.section2{
+    padding: var(--padding-top-bottom) var(--padding-right-left);
+}
+.section2 h1{
+    font-size: 3em;
+    color: #b562f9;
+}
+.section2 h1 span{
+    color: #9c33f4;
+}
+.section2 h1 i{
+    color: black;
+}
+.section2 p{
+    margin: 20px 0px;
+}
+.btn-violet{
+    background-color: #9c33f4;
+    color: white;
+    width: fit-content;
 }
