@@ -3,24 +3,60 @@
     padding: 0;
 }
 header{
-    padding: 20px 90px;
-    height: 100vh;
-    background: url(../img/header-bg.png);
+   
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: contain;
+    
+}
+header>*{
+    padding: 20px 90px;
 }
 header .fixed-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: white;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 header .fixed-header div{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 header .fixed-header div a{
     display: flex;
     align-items: center;
     text-decoration: none;
     gap: 5px;
+    color: inherit;
+}
+header .hero-section{
+    background: url(../img/header-bg.png);
+    height: 100%;
+    background-size: cover;
+    background-position-x: right;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header .hero-section h1{
+    color: white;
+    font-size: 4em;
+    width: 60%;
+    font-family: "Figtree", sans-serif;
+}
+header .hero-section button{
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: greenyellow;
+    font-weight: bold;
 }
