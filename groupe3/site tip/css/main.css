@@ -50,7 +50,7 @@ header .hero-section{
 header .hero-section h1{
     color: white;
     font-size: 4em;
-    width: 60%;
+    width: 65%;
     font-family: "Figtree", sans-serif;
 }
 header .hero-section button{
@@ -59,4 +59,13 @@ header .hero-section button{
     border-radius: 10px;
     background: greenyellow;
     font-weight: bold;
+}
+header .hero-section span{
+    background: url('../img/text-bg.svg');
+    background-repeat: no-repeat;
+    color: black;
+    background-position-y: center;
+    background-size: contain;
+    padding-right: 10px;
+    padding-left: 10px;
 }
