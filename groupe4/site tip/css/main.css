@@ -1,0 +1,33 @@
+:root{
+    --left-distance:100px;
+    --right-distance:100px;
+    --orange-glovo: #ffC244;
+    --green-glovo: #00a082;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    font-family: "Figtree", sans-serif;
+}
+header{
+    padding: 10px var(--right-distance) 10px var(--left-distance);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--orange-glovo);
+    color: var(--green-glovo);
+}
+
+header button{
+    background-color: var(--green-glovo);
+    color: white;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 13px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
