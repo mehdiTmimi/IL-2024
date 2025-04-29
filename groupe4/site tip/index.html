@@ -1,11 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Glovo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Glovo</h1>
+        <button>
+            <i class="fa fa-user"></i>
+            Connexion
+        </button>
+    </header>
+    <main>
+        <section>
+            <video id="adVideo" autoplay loop>
+                <source src="/video/ad.webm">
+            </video>
+            <div>
+                <h2>Vos repas livrés jusqu'à chez vous</h2>
+                <p>Supermarchés, magasins, pharmacies, etc.</p>
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <input type="text" placeholder="quelle est votre adresse ?">
+                    <button>
+                        <i class="fa fa-location-arrow"></i>
+                        Utiliser ma position
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Maroc: Meilleurs restaurants et plus</h2>
+                <ul>
+                    <li>
+                        <img src="img/McDonald's.png" alt="">
+                        <h3>McDonald's</h3>
+                    </li>
+                    <li>
+                        <img src="img/Tacos de Lyon.png" alt="">
+                        <h3>Tacos de Lyon</h3>
+                    </li>
+                    <li>
+                        <img src="img/KFC.png" alt="">
+                        <h3>KFC</h3>
+                    </li>
+                    <li>
+                        <img src="img/Burger King.png" alt="">
+                        <h3>Burger King</h3>
+                    </li>
+                    <li>
+                        <img src="img/Quick.png" alt="">
+                        <h3>Quick</h3>
+                    </li>
+                    <li>
+                        <img src="img/Marjane.png" alt="">
+                        <h3>Marjane</h3>
+                    </li>
+                    <li>
+                        <img src="img/Marjane.png" alt="">
+                        <h3>Pizza Hut</h3>
+                    </li>
+                    <li>
+                        <img src="img/Starbucks.png" alt="">
+                        <h3>Starbucks</h3>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>Faites livrer tout ce que vous voulez</h2>
+                <ul>
+                    <li>
+                        <img src="img/Meilleurs restaurants.png" alt="">
+                        <h3>Les meilleurs restaurants de votre ville</h3>
+                        <p>Avec un grand choix de restaurants, vous trouverez toujours votre plat préféré et
+                            <span>découvrirez de nouveaux restaurants!</span></p>
+                    </li>
+                    <li>
+                        <img src="img/Livraison rapide.png" alt="">
+                        <h3>Livraison rapide</h3>
+                        <p>Notre rapidité est notre fierté. Commandez ou envoyez ce que vous voulez dans votre ville et
+                            <span>on vous livre en quelques minutes.</span></p>
+                    </li>
+                    <li>
+                        <img src="img/Courses.png" alt="">
+                        <h3>Vos courses et bien plus</h3>
+                        <p>Trouvez tout ce qu'il vous faut! <span> Supermarchés, magasins, pharmacies, fleuristes</span>
+                            ... Si ça se trouve dans votre ville, commandez-le.</p>
+                    </li>
+                </ul>
+            </div>
+            <button>Établissements proches</button>
+        </section>
+        <section>
+            <div>
+                <img src="img/Villes.png" alt="">
+                <h2>Meilleures villes : Maroc</h2>
+                <ul>
+                    <li><button>Casablanca</button></li>
+                    <li><button>Rabat</button></li>
+                    <li><button>Marrakech</button></li>
+                    <li><button>Tanger</button></li>
+                    <li><button>Agadir</button></li>
+                    <li><button>Fes</button></li>
+                    <li><button>Kenitra</button></li>
+                    <li><button>Mohammédia</button></li>
+                    <li><button>Bouskoura</button></li>
+                    <li><button>meknes</button></li>
+                </ul>
+                <button>voir toutes les villes</button>
+            </div>
+            <div>
+                <h2>Catégories populaires</h2>
+                <ul>
+                    <li><button>Pizza</button></li>
+                    <li><button>Fleurs</button></li>
+                    <li><button>livres</button></li>
+                    <li><button>Asiatiaques</button></li>
+                    <li><button>Marocain</button></li>
+                    <li><button>petit dejeuner</button></li>
+                    <li><button>parapharmacie</button></li>
+                </ul>
+                <button>voir toutes les categories</button>
+            </div>
+            <div>
+                <h2>Marques populaires</h2>
+                <ul>
+                    <li><button>KFC</button></li>
+                    <li><button>burger king</button></li>
+                    <li><button>McDonald's</button></li>
+                    <li><button>Carrefour</button></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <h1>Glovo <i class="fa fa-map-marker"></i></h1>
+        <div>
+            <div>
+                <h3>Opportunités</h3>
+                <ul>
+                    <li><a href="#">Emploi</a></li>
+                    <li><a href="#">Glovo pour les partenaires</a></li>
+                    <li><a href="#">Coursiers</a></li>
+                    <li><a href="#">Glovo Business</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Glovo Prime</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                    <li><a href="#">Sécurité</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Nous suivre</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                </ul>
+            </div>
+            <div>
+                <div>
+                    <i class="fa fa-apple"></i>
+                    <div>
+                        <p>Download on the</p>
+                        <p>App Store</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa fa-google"></i>
+                    <div>
+                        <p>Get it on</p>
+                        <p>Google Play</p>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#">CONFIGURER LES COOKIES</a></li>
+                    <li><a href="#">CONDITIONS D'UTILISATION</a></li>
+                    <li><a href="#">POLITIQUE DE CONFIDENTIALITÉ</a></li>
+                    <li><a href="#">POLITIQUE EN MATIÈRE DE COOKIES</a></li>
+                    <li><a href="#">CONFORMITÉ</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
