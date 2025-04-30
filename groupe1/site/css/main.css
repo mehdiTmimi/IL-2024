@@ -186,7 +186,71 @@
   text-align: center;
   color: #9ea1a3;
 }
-
+footer{
+  background-color: #152235;
+  padding: 100px;
+}
+footer a{
+  color: inherit;
+  text-decoration: none;
+}
+footer .footer-top{
+  display: flex;
+  color: rgb(225, 225, 225);
+  gap: 40px;
+  border-bottom: 1px solid #213656;
+  padding-bottom: 50px;
+}
+footer .footer-top>div:first-child{
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+footer img{
+  width: 100%;
+}
+footer .footer-top>div:first-child img{
+  width: 70%;
+}
+footer .links{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .links ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #abaaaa;
+}
+footer .links li{
+  display: block;
+}
+footer .footer-top>div{
+  flex: 1;
+}
+footer .footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  color: #8e8e8e;
+  margin-top: 50px;
+}
+footer .footer-bottom>div ul{
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+footer .footer-bottom>div li{
+  display: block;
+}
+footer .footer-bottom>ul{
+  display: flex;
+  gap: 20px;
+}
+footer .footer-bottom>ul li{
+  display: block;
+}
 @media screen  and (max-width:800px){
   .section2{
     padding-top: 100px;
