@@ -183,3 +183,8 @@
   text-align: center;
   color: #9ea1a3;
 }
+@media screen  and (max-width:500px){
+  .section2{
+    padding: 10px;
+  }
+}
