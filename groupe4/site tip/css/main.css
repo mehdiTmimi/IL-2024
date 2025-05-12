@@ -1,6 +1,6 @@
 :root{
-    --left-distance:100px;
-    --right-distance:100px;
+    --left-distance:250px;
+    --right-distance:250px;
     --orange-glovo: #ffC244;
     --green-glovo: #00a082;
 }
@@ -38,4 +38,42 @@ header button{
     background-clip: padding-box;
     border-image-source: url(../img/wave3.svg);
     border-image-slice: 0 0 74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: var(--left-distance) ;
+    padding-right: var(--right-distance) ;
+}
+.hero-section>div{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.hero-section>div h2{
+    font-size: 3em;
+}
+.hero-section .search-position-bar{
+    background-color: white;
+    display: flex;
+    gap: 7px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+.search-position-bar button{
+    border-radius: 20px;
+    padding: 10px;
+    border: 0;
+    background: #e9f8f5ff;
+    color: var(--green-glovo);
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero-section input{
+    flex: 1;
+    border: 0;
+}
+.hero-section input:focus{
+    outline: 0;
 }
