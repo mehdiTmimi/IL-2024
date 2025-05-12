@@ -139,7 +139,42 @@ main{
     background: white;
     width: 30%;
     min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 #1414141a;
+    transition-duration: 500ms;
+}
+.services-section article:hover{
+    scale: 1.02;
+}
+.services-section article:hover h2{
+    text-decoration: underline;
 }
 .services-section article img{
     width: 100%;
+}
+.services-section article li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.services-section article h2{
+    font-family: "Figtree", sans-serif;
+    font-size: 2.2em;
+}
+.services-section article p{
+    font-family: "Figtree", sans-serif;
+    font-size: 1.2em;
+}
+.services-section article li button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: "Figtree", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: white;
 }
