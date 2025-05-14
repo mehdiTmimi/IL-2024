@@ -1,79 +1,264 @@
-:root{
-    --left-distance:250px;
-    --right-distance:250px;
-    --orange-glovo: #ffC244;
-    --green-glovo: #00a082;
+:root {
+  --left-distance: 10%;
+  --right-distance: 10%;
+  --orange-glovo: #ffc244;
+  --green-glovo: #00a082;
 }
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
-html{
-    font-family: "Figtree", sans-serif;
+html {
+  font-family: "Figtree", sans-serif;
 }
-header{
-    padding: 10px var(--right-distance) 10px var(--left-distance);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--orange-glovo);
-    color: var(--green-glovo);
-}
-
-
-header button{
-    background-color: var(--green-glovo);
-    color: white;
-    border: 0;
-    padding: 5px 10px;
-    border-radius: 13px;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
-.hero-section{
-    background: var(--orange-glovo) no-repeat;
-    border-bottom: 74px solid transparent;
-    background-clip: padding-box;
-    border-image-source: url(../img/wave3.svg);
-    border-image-slice: 0 0 74;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: var(--left-distance) ;
-    padding-right: var(--right-distance) ;
-}
-.hero-section>div{
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
+header {
+  padding: 10px var(--right-distance) 10px var(--left-distance);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--orange-glovo);
+  color: var(--green-glovo);
+  position: sticky;
+  top: 0;
 }
 
-.hero-section>div h2{
-    font-size: 3em;
+.btn-green {
+  background-color: var(--green-glovo);
+  color: white;
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 13px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
-.hero-section .search-position-bar{
-    background-color: white;
-    display: flex;
-    gap: 7px;
-    padding: 5px;
-    align-items: center;
-    border-radius: 5px;
+.hero-section {
+  background: var(--orange-glovo) no-repeat;
+  border-bottom: 74px solid transparent;
+  background-clip: padding-box;
+  border-image-source: url(../img/wave3.svg);
+  border-image-slice: 0 0 74;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: var(--left-distance);
+  padding-right: var(--right-distance);
 }
-.search-position-bar button{
-    border-radius: 20px;
-    padding: 10px;
-    border: 0;
-    background: #e9f8f5ff;
-    color: var(--green-glovo);
-    font-weight: bold;
-    cursor: pointer;
+.hero-section > div {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
-.hero-section input{
-    flex: 1;
-    border: 0;
+
+.hero-section > div h2 {
+  font-size: 3em;
 }
-.hero-section input:focus{
-    outline: 0;
+.hero-section .search-position-bar {
+  background-color: white;
+  display: flex;
+  gap: 7px;
+  padding: 5px;
+  align-items: center;
+  border-radius: 5px;
+}
+.search-position-bar button {
+  border-radius: 20px;
+  padding: 10px;
+  border: 0;
+  background: #e9f8f5ff;
+  color: var(--green-glovo);
+  font-weight: bold;
+  cursor: pointer;
+}
+.hero-section input {
+  flex: 1;
+  border: 0;
+}
+.hero-section input:focus {
+  outline: 0;
+}
+
+/* ------------------------- section 2 -------------------------- */
+.section2 {
+  padding: 150px var(--right-distance) 150px var(--left-distance);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section2 .best-restaurant {
+  margin-bottom: 130px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 3em;
+}
+.section2 .best-restaurant ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.section2 .best-restaurant li {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.section2 .best-restaurant li h3 {
+  background: var(--orange-glovo);
+  padding: 5px;
+  font-size: 0.8em;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+}
+.section2 .best-restaurant li img {
+  width: 100%;
+  mask-repeat: no-repeat;
+  aspect-ratio: 1;
+  mask-image: url(../img/partners-mask.svg);
+  mask-position: center;
+  mask-size: contain;
+}
+
+.section2 .livraison ul {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.section2 .livraison ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.section2 .livraison ul li h3,
+.section2 .livraison ul li p {
+  text-align: center;
+}
+.highlight-text {
+  background: var(--orange-glovo);
+  font-size: 0.7rem;
+  border-radius: 10px;
+  padding: 0 5px 0 5px;
+}
+.highlight-text span {
+  background: transparent;
+  font-size: 1rem;
+}
+.padding-btn-green {
+  padding: 7px 40px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+}
+/* ------------------------- footer -----------------*/
+
+footer {
+  border-image-source: url(../img/footer-wave-desktop.svg);
+  background-clip: padding-box;
+  border-top: 68px solid transparent;
+  border-image-slice: 68 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  background-color: #1d1d1d;
+  padding: 150px var(--right-distance) 150px var(--left-distance);
+}
+footer h1 i {
+  color: var(--orange-glovo);
+  position: relative;
+  bottom: 20px;
+  position: relative;
+}
+footer h1 i::after {
+  content: "";
+  background: var(--orange-glovo);
+  font-size: 2.5rem;
+  position: absolute;
+  /* right: auto; */
+  /* right: 50%; */
+  left: calc(50% - 1.5px);
+  width: 3px;
+  height: 3px;
+  display: block;
+  border-radius: 50%;
+}
+footer > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer > div > div {
+  width: 25%;
+  min-width: 200px;
+}
+footer > div > div h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer > div > div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  color: rgb(192, 190, 190);
+  text-align: center;
+}
+footer > div > div ul li {
+  display: block;
+}
+footer > div > div ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+footer > div > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.download {
+  width: fit-content;
+  gap: 7px;
+  align-items: center;
+  display: flex;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.download i {
+  font-size: 1.5rem;
+}
+.download p:last-child {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.download p:first-child {
+  font-size: 0.85rem;
+}
+
+@media screen and (max-width: 1000px) {
+ 
+  main video {
+    width: 40%;
+  }
+  .hero-section{
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width:800px) {
+    .section2 .livraison ul{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 500px) {
+    .hero-section{
+        flex-direction: column;
+    }
+    main video {
+        width: 100%;
+      }
 }
